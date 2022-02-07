@@ -60,6 +60,7 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
     }
   }, [getLaunches, onAbortSound, onFailureSound]);
 
+  //return the functions so they can be exported and uses in components as classes
   return {
     launches,
     isPendingLaunch,
