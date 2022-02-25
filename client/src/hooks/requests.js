@@ -1,5 +1,5 @@
 async function httpGetPlanets() {
-  // TODO: Once API is ready.
+  fetch("http://localhost:5000/planets");
   // Load planets and return as JSON.
 }
 
@@ -18,9 +18,4 @@ async function httpAbortLaunch(id) {
   // Delete launch with given ID.
 }
 
-export {
-  httpGetPlanets,
-  httpGetLaunches,
-  httpSubmitLaunch,
-  httpAbortLaunch,
-};
+export { httpGetPlanets, httpGetLaunches, httpSubmitLaunch, httpAbortLaunch };
