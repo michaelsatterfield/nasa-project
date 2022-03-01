@@ -8,3 +8,5 @@ app.use(express.json());
 app.use(planetsRouter);
 
 module.exports = app;
+
+console.log("test");
